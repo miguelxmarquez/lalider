@@ -42,7 +42,7 @@
  * 
  * @package    lalider
  * @subpackage model
- * @author     Your name here
+ * @author     Miguel Marquez
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BaseCliente extends sfDoctrineRecord
@@ -57,6 +57,7 @@ abstract class BaseCliente extends sfDoctrineRecord
              ));
         $this->hasColumn('identification', 'string', 255, array(
              'type' => 'string',
+             'unique' => true,
              'length' => 255,
              ));
         $this->hasColumn('businessName', 'string', 255, array(

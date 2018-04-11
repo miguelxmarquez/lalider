@@ -1,0 +1,3 @@
+<td colspan="10">
+  <?php echo __('%%id%% - %%code%% - %%productRef%% - %%name%% - %%unit%% - %%brand%% - %%price%% - %%tax%% - %%discountPrice%% - %%state%%', array('%%id%%' => link_to($Producto->getId(), 'producto_edit', $Producto), '%%code%%' => $Producto->getCode(), '%%productRef%%' => $Producto->getProductRef(), '%%name%%' => $Producto->getName(), '%%unit%%' => $Producto->getUnit(), '%%brand%%' => $Producto->getBrand(), '%%price%%' => $Producto->getPrice(), '%%tax%%' => $Producto->getTax(), '%%discountPrice%%' => $Producto->getDiscountPrice(), '%%state%%' => get_partial('producto/list_field_boolean', array('value' => $Producto->getState()))), 'messages') ?>
+</td>

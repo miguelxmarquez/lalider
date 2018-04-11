@@ -12,5 +12,11 @@ class ProjectConfiguration extends sfProjectConfiguration
   public function setup()
   {
     $this->enablePlugins('sfDoctrinePlugin');
+
+    $this->dispatcher->connect('debug.web.load_panels', array(
+    'acWebDebugPanelDocumentation',
+    'listenToLoadDebugWebPanelEvent'
+    ));
+
   }
 }

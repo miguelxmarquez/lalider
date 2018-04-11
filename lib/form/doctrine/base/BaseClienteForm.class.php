@@ -7,7 +7,7 @@
  *
  * @package    lalider
  * @subpackage form
- * @author     Your name here
+ * @author     Miguel Marquez
  * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 29553 2010-05-20 14:33:00Z Kris.Wallsmith $
  */
 abstract class BaseClienteForm extends BaseFormDoctrine
@@ -41,6 +41,10 @@ abstract class BaseClienteForm extends BaseFormDoctrine
       'created_at'       => new sfValidatorDateTime(array('required' => false)),
       'updated_at'       => new sfValidatorDateTime(array('required' => false)),
     ));
+
+    $this->validatorSchema->setPostValidator(
+      new sfValidatorDoctrineUnique(array('model' => 'Cliente', 'column' => array('identification')))
+    );
 
     $this->widgetSchema->setNameFormat('cliente[%s]');
 

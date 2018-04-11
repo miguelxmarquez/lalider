@@ -8,6 +8,7 @@ Cliente:
       autoincrement: true
     identification:
       type: string(255)
+      unique: true
     businessName:
       type: string(255)
     tradename:

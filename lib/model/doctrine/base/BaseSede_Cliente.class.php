@@ -48,7 +48,7 @@
  * 
  * @package    lalider
  * @subpackage model
- * @author     Your name here
+ * @author     Miguel Marquez
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BaseSede_Cliente extends sfDoctrineRecord

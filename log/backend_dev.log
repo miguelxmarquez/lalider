@@ -5916,3 +5916,635 @@ Apr 11 07:41:43 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_batch_a
 Apr 11 07:41:43 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_actions" 0.73 ms (1)
 Apr 11 07:41:43 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_footer" 0.50 ms (1)
 Apr 11 07:41:43 symfony [info] {sfWebResponse} Send content (106595 o)
+Apr 11 08:26:08 symfony [info] {sfPatternRouting} Match route "cliente" (/cliente.:sf_format) for /cliente with parameters array (  'module' => 'cliente',  'action' => 'index',  'sf_format' => 'html',)
+Apr 11 08:26:08 symfony [info] {myUser} Automatic user logout due to timeout
+Apr 11 08:26:08 symfony [info] {myUser} User is not authenticated
+Apr 11 08:26:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:26:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:26:08 symfony [info] {clienteActions} Call "clienteActions->executeIndex()"
+Apr 11 08:26:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 08:26:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM Cliente c - ()
+Apr 11 08:26:09 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/indexSuccess.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_assets.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_flashes.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_header.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_batch_actions.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_actions.php"
+Apr 11 08:26:09 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_footer.php"
+Apr 11 08:26:09 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:26:09 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:26:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 08:26:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Configuration 236.99 ms (12)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Factories 80.84 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Action "cliente/index" 30.10 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.01 ms (2)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} View "Success" for "cliente/index" 41.39 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_assets" 0.68 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_flashes" 0.58 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_header" 0.47 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_filters" 9.52 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_filters_field" 5.44 ms (6)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_list" 0.56 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_batch_actions" 0.66 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_actions" 0.59 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_footer" 0.47 ms (1)
+Apr 11 08:26:09 symfony [info] {sfWebResponse} Send content (77143 o)
+Apr 11 08:26:10 symfony [info] {sfPatternRouting} Match route "cliente_new" (/cliente/new.:sf_format) for /cliente/new with parameters array (  'module' => 'cliente',  'action' => 'new',  'sf_format' => 'html',)
+Apr 11 08:26:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:26:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:26:10 symfony [info] {clienteActions} Call "clienteActions->executeNew()"
+Apr 11 08:26:10 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/newSuccess.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_assets.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_flashes.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_header.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_fieldset.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_actions.php"
+Apr 11 08:26:10 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_footer.php"
+Apr 11 08:26:10 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:26:10 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:26:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 08:26:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Configuration 16.64 ms (11)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Factories 40.73 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Action "cliente/new" 42.39 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} View "Success" for "cliente/new" 31.91 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_assets" 0.58 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_flashes" 0.45 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_header" 0.68 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_form" 13.45 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_fieldset" 9.58 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_field" 7.34 ms (6)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_actions" 0.94 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_footer" 0.70 ms (1)
+Apr 11 08:26:10 symfony [info] {sfWebResponse} Send content (83955 o)
+Apr 11 08:26:38 symfony [info] {sfPatternRouting} Match route "cliente_create" (/cliente.:sf_format) for /cliente with parameters array (  'module' => 'cliente',  'action' => 'create',  'sf_format' => 'html',)
+Apr 11 08:26:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:26:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:26:38 symfony [info] {clienteActions} Call "clienteActions->executeCreate()"
+Apr 11 08:26:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 08:26:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.idcustomer AS c__idcustomer, c.identification AS c__identification, c.businessname AS c__businessname, c.tradename AS c__tradename, c.credit AS c__credit, c.isblocked AS c__isblocked, c.state AS c__state, c.avalilablecredit AS c__avalilablecredit, c.idpricelist AS c__idpricelist, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM Cliente c WHERE (c.identification = ?) - (12345678)
+Apr 11 08:26:39 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO Cliente (isblocked, state, identification, businessname, credit, avalilablecredit, tradename, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - (0, 1, 12345678, Empresa XXX, 5000000, 5000000, , 2018-04-11 08:26:39, 2018-04-11 08:26:39)
+Apr 11 08:26:39 symfony [info] {sfFrontWebController} Redirect to "http://localhost:8000/backend_dev.php/cliente/new"
+Apr 11 08:26:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 11 08:26:39 symfony [info] {sfWebResponse} Send header "Location: http://localhost:8000/backend_dev.php/cliente/new"
+Apr 11 08:26:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Configuration 14.53 ms (10)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Factories 38.85 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Action "cliente/create" 133.64 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 30.84 ms (3)
+Apr 11 08:26:39 symfony [info] {sfWebResponse} Send content (120 o)
+Apr 11 08:26:39 symfony [info] {sfPatternRouting} Match route "cliente_new" (/cliente/new.:sf_format) for /cliente/new with parameters array (  'module' => 'cliente',  'action' => 'new',  'sf_format' => 'html',)
+Apr 11 08:26:39 symfony [info] {myUser} Flag old flash messages ("notice")
+Apr 11 08:26:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:26:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:26:39 symfony [info] {clienteActions} Call "clienteActions->executeNew()"
+Apr 11 08:26:39 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/newSuccess.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_assets.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_flashes.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_header.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_fieldset.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_actions.php"
+Apr 11 08:26:39 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_footer.php"
+Apr 11 08:26:39 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:26:39 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:26:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 08:26:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Configuration 15.50 ms (11)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Factories 37.26 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Action "cliente/new" 35.07 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} View "Success" for "cliente/new" 27.21 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_assets" 0.44 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_flashes" 0.41 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_header" 0.65 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_form" 11.42 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_fieldset" 8.02 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_field" 6.27 ms (6)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_actions" 0.80 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_footer" 0.64 ms (1)
+Apr 11 08:26:39 symfony [info] {sfWebResponse} Send content (84785 o)
+Apr 11 08:26:39 symfony [info] {myUser} Remove old flash messages ("notice")
+Apr 11 08:27:00 symfony [info] {sfPatternRouting} Match route "cliente_create" (/cliente.:sf_format) for /cliente with parameters array (  'module' => 'cliente',  'action' => 'create',  'sf_format' => 'html',)
+Apr 11 08:27:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:27:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:27:00 symfony [info] {clienteActions} Call "clienteActions->executeCreate()"
+Apr 11 08:27:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 08:27:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.idcustomer AS c__idcustomer, c.identification AS c__identification, c.businessname AS c__businessname, c.tradename AS c__tradename, c.credit AS c__credit, c.isblocked AS c__isblocked, c.state AS c__state, c.avalilablecredit AS c__avalilablecredit, c.idpricelist AS c__idpricelist, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM Cliente c WHERE (c.identification = ?) - (12345678)
+Apr 11 08:27:00 symfony [info] {clienteActions} Change template to "CURRENT/new"
+Apr 11 08:27:00 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/newSuccess.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_assets.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_flashes.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_header.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_fieldset.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_actions.php"
+Apr 11 08:27:00 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_footer.php"
+Apr 11 08:27:00 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:27:00 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:27:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 08:27:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Configuration 15.03 ms (11)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Factories 38.18 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Action "cliente/create" 73.81 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.64 ms (2)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} View "Success" for "cliente/create" 28.93 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_assets" 0.75 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_flashes" 0.64 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_header" 0.71 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_form" 12.27 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_fieldset" 8.15 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_field" 6.46 ms (6)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_actions" 0.96 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_footer" 0.81 ms (1)
+Apr 11 08:27:00 symfony [info] {sfWebResponse} Send content (91100 o)
+Apr 11 08:27:00 symfony [info] {myUser} Remove old flash messages ("error")
+Apr 11 08:27:19 symfony [info] {sfPatternRouting} Match route "cliente_create" (/cliente.:sf_format) for /cliente with parameters array (  'module' => 'cliente',  'action' => 'create',  'sf_format' => 'html',)
+Apr 11 08:27:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:27:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:27:19 symfony [info] {clienteActions} Call "clienteActions->executeCreate()"
+Apr 11 08:27:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 08:27:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.idcustomer AS c__idcustomer, c.identification AS c__identification, c.businessname AS c__businessname, c.tradename AS c__tradename, c.credit AS c__credit, c.isblocked AS c__isblocked, c.state AS c__state, c.avalilablecredit AS c__avalilablecredit, c.idpricelist AS c__idpricelist, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM Cliente c WHERE (c.identification = ?) - (12345679)
+Apr 11 08:27:19 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO Cliente (isblocked, state, identification, businessname, credit, avalilablecredit, tradename, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - (0, 1, 12345679, Empresa XYZ, 6000000, 6000000, , 2018-04-11 08:27:19, 2018-04-11 08:27:19)
+Apr 11 08:27:19 symfony [info] {sfFrontWebController} Redirect to "http://localhost:8000/backend_dev.php/cliente/2/edit"
+Apr 11 08:27:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 11 08:27:19 symfony [info] {sfWebResponse} Send header "Location: http://localhost:8000/backend_dev.php/cliente/2/edit"
+Apr 11 08:27:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Configuration 14.18 ms (10)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Factories 41.63 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Action "cliente/create" 121.87 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.92 ms (3)
+Apr 11 08:27:19 symfony [info] {sfWebResponse} Send content (123 o)
+Apr 11 08:27:19 symfony [info] {sfPatternRouting} Match route "cliente_edit" (/cliente/:idCustomer/edit.:sf_format) for /cliente/2/edit with parameters array (  'module' => 'cliente',  'action' => 'edit',  'sf_format' => 'html',  'idCustomer' => '2',)
+Apr 11 08:27:19 symfony [info] {myUser} Flag old flash messages ("notice")
+Apr 11 08:27:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:27:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:27:19 symfony [info] {clienteActions} Call "clienteActions->executeEdit()"
+Apr 11 08:27:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 08:27:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.idcustomer AS c__idcustomer, c.identification AS c__identification, c.businessname AS c__businessname, c.tradename AS c__tradename, c.credit AS c__credit, c.isblocked AS c__isblocked, c.state AS c__state, c.avalilablecredit AS c__avalilablecredit, c.idpricelist AS c__idpricelist, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM Cliente c WHERE (c.idcustomer = ?) - (2)
+Apr 11 08:27:19 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/editSuccess.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_assets.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_flashes.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_header.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_fieldset.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_field.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_actions.php"
+Apr 11 08:27:19 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_form_footer.php"
+Apr 11 08:27:19 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:27:19 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:27:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 08:27:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Configuration 15.38 ms (11)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Factories 40.01 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Action "cliente/edit" 66.59 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.39 ms (2)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} View "Success" for "cliente/edit" 29.86 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_assets" 0.50 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_flashes" 0.46 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_header" 0.70 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_form" 12.53 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_fieldset" 8.48 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_field" 6.48 ms (6)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_actions" 1.12 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebDebugLogger} Partial "cliente/_form_footer" 0.86 ms (1)
+Apr 11 08:27:19 symfony [info] {sfWebResponse} Send content (89542 o)
+Apr 11 08:27:19 symfony [info] {myUser} Remove old flash messages ("notice")
+Apr 11 08:27:21 symfony [info] {sfPatternRouting} Match route "cliente" (/cliente.:sf_format) for /cliente with parameters array (  'module' => 'cliente',  'action' => 'index',  'sf_format' => 'html',)
+Apr 11 08:27:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:27:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:27:21 symfony [info] {clienteActions} Call "clienteActions->executeIndex()"
+Apr 11 08:27:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 08:27:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM Cliente c - ()
+Apr 11 08:27:21 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/indexSuccess.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_assets.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_flashes.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_header.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_th_tabular.php"
+Apr 11 08:27:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:27:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.idcustomer AS c__idcustomer, c.identification AS c__identification, c.businessname AS c__businessname, c.tradename AS c__tradename, c.credit AS c__credit, c.isblocked AS c__isblocked, c.state AS c__state, c.avalilablecredit AS c__avalilablecredit, c.idpricelist AS c__idpricelist, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM Cliente c ORDER BY c.identification asc LIMIT 5 - ()
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_batch_actions.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_tabular.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_actions.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_batch_actions.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_tabular.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_actions.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_batch_actions.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_actions.php"
+Apr 11 08:27:21 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_footer.php"
+Apr 11 08:27:21 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:27:21 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:27:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 08:27:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Configuration 17.48 ms (11)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Factories 40.81 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Action "cliente/index" 65.27 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.89 ms (3)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} View "Success" for "cliente/index" 47.07 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_assets" 0.51 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_flashes" 0.43 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_header" 0.35 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_filters" 8.09 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_filters_field" 5.01 ms (6)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list" 22.71 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_th_tabular" 1.87 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_td_batch_actions" 1.82 ms (2)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_td_tabular" 7.17 ms (2)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_field_boolean" 3.21 ms (4)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_td_actions" 2.14 ms (2)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_batch_actions" 0.53 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_actions" 0.44 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_footer" 0.35 ms (1)
+Apr 11 08:27:21 symfony [info] {sfWebResponse} Send content (100066 o)
+Apr 11 08:53:25 symfony [info] {sfPatternRouting} Match route "cliente" (/cliente.:sf_format) for /cliente with parameters array (  'module' => 'cliente',  'action' => 'index',  'sf_format' => 'html',)
+Apr 11 08:53:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 08:53:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 08:53:25 symfony [info] {clienteActions} Call "clienteActions->executeIndex()"
+Apr 11 08:53:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 08:53:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM Cliente c - ()
+Apr 11 08:53:25 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/indexSuccess.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_assets.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_flashes.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_header.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_filters_field.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_th_tabular.php"
+Apr 11 08:53:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 08:53:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.idcustomer AS c__idcustomer, c.identification AS c__identification, c.businessname AS c__businessname, c.tradename AS c__tradename, c.credit AS c__credit, c.isblocked AS c__isblocked, c.state AS c__state, c.avalilablecredit AS c__avalilablecredit, c.idpricelist AS c__idpricelist, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM Cliente c ORDER BY c.identification asc LIMIT 5 - ()
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_batch_actions.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_tabular.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_actions.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_batch_actions.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_tabular.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_field_boolean.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_td_actions.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_batch_actions.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_actions.php"
+Apr 11 08:53:25 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoCliente/templates/_list_footer.php"
+Apr 11 08:53:25 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:53:25 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 08:53:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 08:53:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Configuration 74.35 ms (13)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Factories 99.30 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Action "cliente/index" 44.72 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.07 ms (3)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} View "Success" for "cliente/index" 56.11 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_assets" 0.79 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_flashes" 1.02 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_header" 1.10 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_filters" 10.45 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_filters_field" 6.23 ms (6)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list" 20.60 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_th_tabular" 1.69 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_td_batch_actions" 1.57 ms (2)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_td_tabular" 6.24 ms (2)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_field_boolean" 2.73 ms (4)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_td_actions" 2.32 ms (2)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_batch_actions" 1.16 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_actions" 0.73 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebDebugLogger} Partial "cliente/_list_footer" 0.56 ms (1)
+Apr 11 08:53:25 symfony [info] {sfWebResponse} Send content (100497 o)
+Apr 11 09:54:01 symfony [info] {sfPatternRouting} Match route "producto" (/producto.:sf_format) for /producto with parameters array (  'module' => 'producto',  'action' => 'index',  'sf_format' => 'html',)
+Apr 11 09:54:01 symfony [info] {myUser} Automatic user logout due to timeout
+Apr 11 09:54:01 symfony [info] {myUser} User is not authenticated
+Apr 11 09:54:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 09:54:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 09:54:01 symfony [info] {productoActions} Call "productoActions->executeIndex()"
+Apr 11 09:54:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 09:54:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM Producto p - ()
+Apr 11 09:54:01 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/indexSuccess.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_assets.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_flashes.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_header.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_batch_actions.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_actions.php"
+Apr 11 09:54:01 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_footer.php"
+Apr 11 09:54:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:54:01 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:54:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 09:54:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Configuration 144.76 ms (12)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Factories 30.93 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Action "producto/index" 24.96 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (2)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} View "Success" for "producto/index" 34.63 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_assets" 0.54 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_flashes" 0.41 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_list_header" 0.39 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_filters" 8.42 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_filters_field" 4.50 ms (6)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_list" 0.50 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_list_batch_actions" 0.50 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_list_actions" 0.51 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "producto/_list_footer" 0.48 ms (1)
+Apr 11 09:54:01 symfony [info] {sfWebResponse} Send content (95809 o)
+Apr 11 09:54:03 symfony [info] {sfPatternRouting} Match route "producto_new" (/producto/new.:sf_format) for /producto/new with parameters array (  'module' => 'producto',  'action' => 'new',  'sf_format' => 'html',)
+Apr 11 09:54:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 09:54:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 09:54:03 symfony [info] {productoActions} Call "productoActions->executeNew()"
+Apr 11 09:54:03 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/newSuccess.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_assets.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_flashes.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_header.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_fieldset.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_actions.php"
+Apr 11 09:54:03 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_footer.php"
+Apr 11 09:54:03 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:54:03 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:54:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 09:54:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Configuration 10.04 ms (11)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Factories 32.67 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Action "producto/new" 29.02 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} View "Success" for "producto/new" 26.58 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_assets" 0.54 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_flashes" 0.43 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_form_header" 0.51 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_form" 12.53 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_form_fieldset" 9.17 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_form_field" 7.34 ms (9)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_form_actions" 0.69 ms (1)
+Apr 11 09:54:03 symfony [info] {sfWebDebugLogger} Partial "producto/_form_footer" 0.53 ms (1)
+Apr 11 09:54:04 symfony [info] {sfWebResponse} Send content (131176 o)
+Apr 11 09:54:45 symfony [info] {sfPatternRouting} Match route "producto_create" (/producto.:sf_format) for /producto with parameters array (  'module' => 'producto',  'action' => 'create',  'sf_format' => 'html',)
+Apr 11 09:54:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 09:54:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 09:54:45 symfony [info] {productoActions} Call "productoActions->executeCreate()"
+Apr 11 09:54:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 09:54:45 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO Producto (state, code, productref, name, unit, brand, price, tax, discountprice, currencysymbol, description, categoryname, subcategoryname, linename, suppliername, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 12345678, 12345678, Producto XXX, UNI, XXX, 100000, 19, 0, , , , , , , 2018-04-11 09:54:45, 2018-04-11 09:54:45)
+Apr 11 09:54:45 symfony [info] {sfFrontWebController} Redirect to "http://localhost:8000/backend_dev.php/producto/new"
+Apr 11 09:54:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 11 09:54:45 symfony [info] {sfWebResponse} Send header "Location: http://localhost:8000/backend_dev.php/producto/new"
+Apr 11 09:54:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Configuration 9.08 ms (10)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Factories 32.97 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Action "producto/create" 97.58 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 14.85 ms (2)
+Apr 11 09:54:45 symfony [info] {sfWebResponse} Send content (121 o)
+Apr 11 09:54:45 symfony [info] {sfPatternRouting} Match route "producto_new" (/producto/new.:sf_format) for /producto/new with parameters array (  'module' => 'producto',  'action' => 'new',  'sf_format' => 'html',)
+Apr 11 09:54:45 symfony [info] {myUser} Flag old flash messages ("notice")
+Apr 11 09:54:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 09:54:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 09:54:45 symfony [info] {productoActions} Call "productoActions->executeNew()"
+Apr 11 09:54:45 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/newSuccess.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_assets.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_flashes.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_header.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_fieldset.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_actions.php"
+Apr 11 09:54:45 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_footer.php"
+Apr 11 09:54:45 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:54:45 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:54:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 09:54:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Configuration 9.18 ms (11)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Factories 31.01 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Action "producto/new" 27.68 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} View "Success" for "producto/new" 24.55 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_assets" 0.40 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_flashes" 0.38 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_form_header" 0.50 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_form" 12.19 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_form_fieldset" 8.52 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_form_field" 6.64 ms (9)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_form_actions" 0.63 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebDebugLogger} Partial "producto/_form_footer" 0.47 ms (1)
+Apr 11 09:54:45 symfony [info] {sfWebResponse} Send content (131898 o)
+Apr 11 09:54:45 symfony [info] {myUser} Remove old flash messages ("notice")
+Apr 11 09:55:16 symfony [info] {sfPatternRouting} Match route "producto_create" (/producto.:sf_format) for /producto with parameters array (  'module' => 'producto',  'action' => 'create',  'sf_format' => 'html',)
+Apr 11 09:55:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 09:55:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 09:55:16 symfony [info] {productoActions} Call "productoActions->executeCreate()"
+Apr 11 09:55:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 09:55:16 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO Producto (state, code, productref, name, unit, brand, price, tax, discountprice, currencysymbol, description, categoryname, subcategoryname, linename, suppliername, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 12345678, 12345678, Producto XYZ, UNI, XYZ, 120000, 19, 0, , , , , , , 2018-04-11 09:55:16, 2018-04-11 09:55:16)
+Apr 11 09:55:16 symfony [info] {sfFrontWebController} Redirect to "http://localhost:8000/backend_dev.php/producto/2/edit"
+Apr 11 09:55:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 11 09:55:16 symfony [info] {sfWebResponse} Send header "Location: http://localhost:8000/backend_dev.php/producto/2/edit"
+Apr 11 09:55:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Configuration 8.40 ms (10)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Factories 33.83 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Action "producto/create" 99.01 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.60 ms (2)
+Apr 11 09:55:16 symfony [info] {sfWebResponse} Send content (124 o)
+Apr 11 09:55:16 symfony [info] {sfPatternRouting} Match route "producto_edit" (/producto/:id/edit.:sf_format) for /producto/2/edit with parameters array (  'module' => 'producto',  'action' => 'edit',  'sf_format' => 'html',  'id' => '2',)
+Apr 11 09:55:16 symfony [info] {myUser} Flag old flash messages ("notice")
+Apr 11 09:55:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 09:55:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 09:55:16 symfony [info] {productoActions} Call "productoActions->executeEdit()"
+Apr 11 09:55:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 09:55:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT p.id AS p__id, p.code AS p__code, p.productref AS p__productref, p.name AS p__name, p.unit AS p__unit, p.currencysymbol AS p__currencysymbol, p.description AS p__description, p.idbrand AS p__idbrand, p.brand AS p__brand, p.idcategory AS p__idcategory, p.categoryname AS p__categoryname, p.idsubcategory AS p__idsubcategory, p.subcategoryname AS p__subcategoryname, p.idline AS p__idline, p.linename AS p__linename, p.suppliername AS p__suppliername, p.price AS p__price, p.tax AS p__tax, p.discountprice AS p__discountprice, p.state AS p__state, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM Producto p WHERE (p.id = ?) - (2)
+Apr 11 09:55:16 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/editSuccess.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_assets.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_flashes.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_header.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_fieldset.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_field.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_actions.php"
+Apr 11 09:55:16 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_form_footer.php"
+Apr 11 09:55:16 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:55:16 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:55:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 09:55:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Configuration 9.85 ms (11)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Factories 32.79 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Action "producto/edit" 49.77 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (2)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} View "Success" for "producto/edit" 26.24 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_assets" 0.53 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_flashes" 0.38 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_form_header" 0.61 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_form" 12.17 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_form_fieldset" 8.25 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_form_field" 6.62 ms (9)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_form_actions" 1.20 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebDebugLogger} Partial "producto/_form_footer" 0.52 ms (1)
+Apr 11 09:55:16 symfony [info] {sfWebResponse} Send content (138034 o)
+Apr 11 09:55:16 symfony [info] {myUser} Remove old flash messages ("notice")
+Apr 11 09:55:18 symfony [info] {sfPatternRouting} Match route "producto" (/producto.:sf_format) for /producto with parameters array (  'module' => 'producto',  'action' => 'index',  'sf_format' => 'html',)
+Apr 11 09:55:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 11 09:55:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 11 09:55:18 symfony [info] {productoActions} Call "productoActions->executeIndex()"
+Apr 11 09:55:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 11 09:55:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM Producto p - ()
+Apr 11 09:55:18 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/indexSuccess.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_assets.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_flashes.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_header.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_filters_field.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_th_tabular.php"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 11 09:55:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.code AS p__code, p.productref AS p__productref, p.name AS p__name, p.unit AS p__unit, p.currencysymbol AS p__currencysymbol, p.description AS p__description, p.idbrand AS p__idbrand, p.brand AS p__brand, p.idcategory AS p__idcategory, p.categoryname AS p__categoryname, p.idsubcategory AS p__idsubcategory, p.subcategoryname AS p__subcategoryname, p.idline AS p__idline, p.linename AS p__linename, p.suppliername AS p__suppliername, p.price AS p__price, p.tax AS p__tax, p.discountprice AS p__discountprice, p.state AS p__state, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM Producto p ORDER BY p.id asc LIMIT 5 - ()
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_td_batch_actions.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_td_tabular.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_field_boolean.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_td_actions.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_td_batch_actions.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_td_tabular.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_field_boolean.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_td_actions.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_batch_actions.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_actions.php"
+Apr 11 09:55:18 symfony [info] {sfPartialView} Render "C:\xampp4\htdocs\sf_projects\lalider\cache\backend\dev\modules/autoProducto/templates/_list_footer.php"
+Apr 11 09:55:18 symfony [info] {sfPHPView} Decorate content with "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:55:18 symfony [info] {sfPHPView} Render "C:\xampp4\htdocs\sf_projects\lalider\apps\backend\templates/layout.php"
+Apr 11 09:55:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 11 09:55:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Configuration 9.56 ms (11)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Factories 32.51 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Action "producto/index" 52.07 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.80 ms (3)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} View "Success" for "producto/index" 37.08 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_assets" 0.44 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_flashes" 0.38 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_header" 0.27 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_filters" 7.56 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_filters_field" 4.62 ms (6)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list" 17.28 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_th_tabular" 2.11 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_td_batch_actions" 1.14 ms (2)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_td_tabular" 4.61 ms (2)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_field_boolean" 1.34 ms (2)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_td_actions" 2.02 ms (2)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_batch_actions" 0.44 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_actions" 0.47 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebDebugLogger} Partial "producto/_list_footer" 0.29 ms (1)
+Apr 11 09:55:18 symfony [info] {sfWebResponse} Send content (121330 o)

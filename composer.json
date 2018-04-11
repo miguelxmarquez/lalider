@@ -1,0 +1,16 @@
+{
+    "name": "sf_projects/lalider",
+    "description": "Integrator LaLider",
+    "type": "project",
+    "require": {
+        "webmozart/assert": "^1.3",
+        "monolog/monolog": "^1.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Marquez",
+            "email": "dev4@3creatives.com"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Cartera
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Cartera
+    plural:                Carteras
+    route_prefix:          cartera
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new: { label: "Crear Nueva Cartera de Cliente" }
+        _edit: { label: "Editar" }
+        _delete: { label: "Eliminar" }
+      fields:
+        idCustomer:         { label: Cliente}
+        invoiceNumber:      { label:  Factura}
+        totalValue:         { label: Total}
+        balance:            { label: Balance}
+        taxValue:           { label: Tasa IVA}
+        createDate:         { label: Fecha Creacion}
+      list:
+        title:          Clientes
+        display:        [idCustomer, invoiceNumber, totalValue, balance, taxValue, createDate]
+        max_per_page:   5
+        sort:           [idCustomer, asc]
+      filter:
+        display:        [idCustomer, invoiceNumber, totalValue, balance, taxValue, createDate]
+      form:    ~
+      edit:
+        title:          Editando la Cartera "%%invoiceNumber%%"
+        display:        [idCustomer, invoiceNumber, totalValue, balance, taxValue, createDate]
+      new:
+        display:        [idCustomer, invoiceNumber, totalValue, balance, taxValue]
+        title:          Nueva Cartera

@@ -1,0 +1,52 @@
+producto:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Producto
+    module:               producto
+    prefix_path:          /producto
+    column:               id
+    with_wildcard_routes: true
+
+sede_cliente:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Sede_Cliente
+    module:               sede_cliente
+    prefix_path:          /sede_cliente
+    column:               id
+    with_wildcard_routes: true
+
+cartera:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Cartera
+    module:               cartera
+    prefix_path:          /cartera
+    column:               id
+    with_wildcard_routes: true
+
+cliente:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Cliente
+    module:               cliente
+    prefix_path:          /cliente
+    column:               idCustomer
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

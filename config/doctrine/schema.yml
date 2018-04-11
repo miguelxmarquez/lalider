@@ -1,0 +1,206 @@
+Cliente:
+  actAs: [Timestampable]
+  tableName: Cliente
+  columns:
+    idCustomer:
+      type: integer
+      primary: true
+      autoincrement: true
+    identification:
+      type: string(255)
+    businessName:
+      type: string(255)
+    tradename:
+      type: string(255)
+    credit:
+      type: float(10)
+    isBlocked:
+      type: boolean
+      default: 0
+    state:
+      type: boolean
+      default: 1
+    avalilableCredit:
+      type: float(10)
+    idPricelist:
+      type: integer
+  actAs:
+    Timestampable:
+      created:
+        name: created_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false
+      updated:
+        name: updated_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false
+
+Sede_Cliente:
+  actAs: [Timestampable]
+  tableName: Sede_Cliente
+  columns:
+    idCustomer:
+      type: integer
+    identification:
+      type: string(255)
+    idCustomerOffice:
+      type: string(255)
+    address:
+      type: string(255)
+    name:
+      type: string(200)
+    countryId:
+      type: integer
+    countryName:
+      type: string(100)
+    cityId:
+      type: integer
+    cityName:
+      type: string(50)
+    contactPerson1:
+      type: string(50)
+    cellphoneContact:
+      type: string(50)
+    phoneNumber:
+      type: string(50)
+  actAs:
+    Timestampable:
+      created:
+        name: created_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false
+      updated:
+        name: updated_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false
+  relations:
+    Cliente:
+      class: Cliente
+      local: idCustomer
+      foreign: idCustomer
+      foreignAlias: Sede_Cliente
+      type: one
+      foreignType: many
+
+Producto:
+  actAs: [Timestampable]
+  tableName: Producto
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    code:
+      type: string(255)
+    productRef:
+      type: string(255)
+    name:
+      type: string(255)
+    unit:
+      type: string(20)
+    currencySymbol:
+      type: string(5)
+    description:
+      type: string(255)
+    idBrand:
+      type: integer
+    brand:
+      type: string(255)
+    idCategory:
+      type: integer
+    categoryName:
+      type: string(255)
+    idSubcategory:
+      type: integer
+    subcategoryName:
+      type: string(255)
+    idLine:
+      type: integer
+    lineName:
+      type: string(255)
+    supplierName:
+      type: string(255)
+    price:
+      type: float(10)
+    tax:
+      type: float(10)
+    discountPrice:
+      type: float(10)
+    state:
+      type: boolean
+      default: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false
+      updated:
+        name: updated_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false
+
+Cartera:
+  actAs: [Timestampable]
+  tableName: Cartera
+  columns:
+    idCustomer:
+      type: integer
+    invoiceNumber:
+      type: integer
+    totalValue:
+      type: float(10)
+    balance:
+      type: float(10)
+    taxValue:
+      type: float(10)
+    createDate:
+      type: timestamp
+      format: Y-m-d H:i:s
+    dueDate:
+      type: timestamp
+      format: Y-m-d H:i:s
+  relations:
+    Cliente:
+      class: Cliente
+      local: idCustomer
+      foreign: idCustomer
+      foreignAlias: Cartera
+      type: one
+      foreignType: one
+
+
+  actAs:
+    Timestampable:
+      created:
+        name: created_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false
+      updated:
+        name: updated_at
+        type: timestamp
+        format: Y-m-d H:i:s
+        options:
+          notnull: false
+          required: false

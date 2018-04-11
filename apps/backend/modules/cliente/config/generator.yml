@@ -1,0 +1,39 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Cliente
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Cliente
+    plural:                Clientes
+    route_prefix:          cliente
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new: { label: "Crear Nuevo Cliente" }
+        _edit: { label: "Editar" }
+        _delete: { label: "Eliminar" }
+      fields:
+        identification:     { label: NIT  }
+        businessName:       { label: Razon Social}
+        credit:             { label: Credito}
+        avalilableCredit:   { label: Credito Disponible}
+        state:              { label: Estado}
+        isBlocked:          { label: Bloqueado}
+      list:
+        title:          Clientes
+        display:        [identification, businessName, credit, avalilableCredit, state, isBlocked]
+        max_per_page:   5
+        sort:           [identification, asc]
+      filter:
+        display:        [identification, businessName, credit, avalilableCredit, state, isBlocked]
+      form:    ~
+      edit:
+        title:          Editando el Cliente "%%businessName%%"
+        display:        [identification, businessName, credit, avalilableCredit, state, isBlocked]
+      new:
+        display:        [identification, businessName, credit, avalilableCredit, state, isBlocked]
+        title:          Nuevo Cliente

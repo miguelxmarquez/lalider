@@ -1,0 +1,43 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Producto
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Producto
+    plural:                Productos
+    route_prefix:          producto
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new: { label: "Crear Nuevo Producto" }
+        _edit: { label: "Editar" }
+        _delete: { label: "Eliminar" }
+      fields:
+        id:                 { label: ID  }
+        code:               { label: Codigo}
+        productRef:         { label: Referencia}
+        name:               { label: Nombre}
+        unit:               { label: Unidad}
+        brand:              { label: Marca}
+        price:              { label: Precio}
+        tax:                { label: I.V.A.}
+        discountPrice:      { label: Descuento}
+        state:              { label: Estado}
+      list:
+        title:          Clientes
+        display:        [id, code, productRef, name, unit, brand, price, tax, discountPrice, state]
+        max_per_page:   5
+        sort:           [id, asc]
+      filter:
+        display:        [id, code, productRef, name, brand, price, state]
+      form:    ~
+      edit:
+        title:          Editando el Cliente "%%name%%"
+        display:        [id, code, productRef, name, unit, brand, price, tax, discountPrice, state]
+      new:
+        display:        [id, code, productRef, name, unit, brand, price, tax, discountPrice, state]
+        title:          Nuevo Producto
